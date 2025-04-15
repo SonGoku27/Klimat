@@ -29,9 +29,9 @@ df_no_duplicates = df.drop_duplicates(
             'окно', 'двери', 'отопление'],
     keep=False)
 print()
-df['рост'].fillna(df['рост'].describe().median(), inplace=True)
-df['вес'].fillna(df['вес'].describe().median(), inplace=True)
-df['возраст'].plot(kind='hist', density=1, bins=20, stacked=False, alpha=.5, color='grey')
+df['рост'] = df['рост'].fillna(df['рост'].describe().median())
+df['вес'] = df['вес'].fillna(df['вес'].describe().median())
+df['оценка_комформа'] = df['оценка_комфорта'].fillna(df['оценка_комфорта'].describe().loc['50%'])
 
 
 df1 = emissions(df)
