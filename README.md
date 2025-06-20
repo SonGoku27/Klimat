@@ -1,5 +1,4 @@
-Презентация: https://docs.google.com/presentation/d/1_rU5DEDneIyPZrohbfjMTqNC_yKFd7al/edit?usp=drive_link&ouid=115664785409611875243&rtpof=true&sd=true                              
-Описание проекта:
+Project description:
 You work as an analyst at an international company that manufactures and sells climate control equipment, such as air conditioning and ventilation systems. At one of the industry exhibitions dedicated to climate technologies, a group of engineers from a partner company shared the results of their research: data on the use of climate systems in offices across various countries and cities, along with respondents' feedback on how comfortable they felt under specific conditions.
 
 Your management has tasked you with analyzing the provided data and delivering insights on which type of climate equipment the company should invest in more to improve customer satisfaction, depending on the region. Additionally, you are expected to highlight key factors to consider when developing the business in different regions.
